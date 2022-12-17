@@ -47,8 +47,7 @@ Siga os passos e inclua as informações abaixo:
  * VITE_APP_ID=
  * VITE_DATABASE_URL= 
 <br />
-### 😎 Próximos passos mapeados
-
+### Implementações futura
 - Incluir Testes
 - Revisar acessibilidade
 - aplicar responsividade
