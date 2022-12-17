@@ -1,14 +1,12 @@
 # Projeto final Reprograma 
 
 ## Projeto
-### ``
+### 
 
-> ⚠️ Esse foi meu projeto final usando as tecnologias que aprendi durante o bootcamp da Reprograma
+Esse foi meu projeto final usando as tecnologias que aprendi durante o bootcamp da Reprograma
 
 
 O site já está no ar e você pode acessar aqui: [Site Netos Por Escolha]()
-
----
 
 <br />
 
@@ -25,9 +23,6 @@ O site já está no ar e você pode acessar aqui: [Site Netos Por Escolha]()
 | `React router dom` | Dependência para criar rotas no reactjs|
 | `Vercel` | Hospedagem para a aplicação, fiz o deploy integrado com o github|
 | `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
-
-
-<br />
 <br />
 
 ### `Como rodar o projeto localmente`
@@ -50,26 +45,17 @@ Siga os passos e inclua as informações abaixo:
  * VITE_STORAGE_BUCKET=
  * VITE_MESSAGING_SENDER_ID=
  * VITE_APP_ID=
- * VITE_DATABASE_URL=
- 
+ * VITE_DATABASE_URL= 
 <br />
-<br />
-
 ### 😎 Próximos passos mapeados
 
 - Incluir Testes
 - Revisar acessibilidade
 - aplicar responsividade
-
 <br />
-<br />
----
-
 
 ### Vamos nos conectar?
 - [linkedin](https://www.linkedin.com/in/daianeanjos/)
 - [github]( https://github.com/daianedosanjos)
-
-
 <br>
 Feito por Daiane dos Anjos
