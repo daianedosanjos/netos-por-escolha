@@ -1,14 +1,17 @@
 import styled from 'styled-components'
 
 export const Principios = styled.section `
-    width: 100%;
+    width: 98vw;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 2rem;
     gap: 12rem;
+
   h1{
-    font-size: 2rem
+    font-size: 3rem;
+    color: #600227;
+    margin-bottom: -1rem;
   }
 
 `
@@ -22,13 +25,13 @@ justify-content: center;
 
 export const Img = styled.div `
     display: flex;
-    width: 100%;   
+    width: 98%;   
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 2rem;
     gap: 12rem;
-    margin-bottom: 10rem
+    margin-top: -5rem
 
 `
  

@@ -1,26 +1,25 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 1rem;
   background-color: #600227;
-  height: 60px;
-  padding:0;
+  height: 120px;
   width: 100%
     
 `;
-export const FooterSocial = styled.div`
-  margin-left: 30rem;
+export const FooterSocial = styled.div `
   border-radius: 5px;
   gap: 2rem;
   font-size: 1.3rem;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  display: flex;
+  margin-top: -2rem;
+
+    
+  
 
   .linkedin {
+    
     :hover {
       background: #0072b1;
     }
@@ -49,9 +48,15 @@ export const FooterSocial = styled.div`
       color: #fff;
     }
   }
-`;
-export const FooterStyled = styled.footer`
-  width: 100vw;
+`
+export const FooterStyled = styled.footer `
+  width: 100%;
   color: #eee;
   padding: 3rem 1rem;
+  justify-content: center;
+  display: flex; 
+
+  p{
+      margin-top: -1rem;
+    }
 `;

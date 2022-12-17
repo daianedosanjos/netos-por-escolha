@@ -14,6 +14,16 @@ export const Lista = styled.section `
 		align-items: center;
 		justify-content: center;
 		line-height: 2rem;
-		padding: 5rem
+		padding: 5rem;
+		background-color: azure;
+
+		h3{
+			margin-bottom: 1.5rem;
+		}
+
+		
+		h4{
+			margin-top: 1.5rem;
+		}
 	
 `

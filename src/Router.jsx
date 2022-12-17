@@ -18,7 +18,7 @@ function Router() {
         <Route path="/comoajudar" element={<ComoAjudar />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/cadastro" element={<Cadastro />} />
-        <Route path="/doacao" element={<Doacoes />} />
+        <Route path="/doacoes" element={<Doacoes />} />
       </Routes>
       <Footer />
     </BrowserRouter>

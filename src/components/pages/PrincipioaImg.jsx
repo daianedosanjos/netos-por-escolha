@@ -9,12 +9,11 @@ function PrinciplesImg() {
   return (
 	<Principios id="principios">	
   <Title>
-   <h1>NOSSOS PRINCIPIOS</h1>	
+   <h1>Nossos Princípios</h1>	
    </Title> 
    <Img>
         <img className="principio-img"src={missao} alt="" />
-        <img className="principio-img"src={visao} alt="" />
-        <img className="principio-img"src={valores} alt="" /> 
+       
       </Img>
 		<PrincipiosCards/>
 	</Principios>

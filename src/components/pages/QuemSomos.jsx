@@ -11,7 +11,7 @@ function Story() {
           <img src={anarosa} alt="" />
         </div>
         <div>
-          <h1> Um pouco da nossa história</h1>
+          <h1> Como tudo começou...</h1>
           <p>
             Em 2015 fui convidada pela equipe da Fátima Bernardes para contar um
             pouco da minha história com meu avô Fernando que tinha Alzheimer, eu
@@ -31,7 +31,7 @@ function Story() {
         </div>
       </OurStory>
       <Performance>
-        <h1> COMO ATUAMOS</h1>
+        <h1>Como atuamos</h1>
         <p>
           Em cada ação realizada, seja ela frequente ou pontual, levando
           atividades lúdicas ou apenas as doações arrecadadas, sempre colocamos

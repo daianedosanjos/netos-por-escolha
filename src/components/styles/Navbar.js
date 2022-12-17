@@ -17,7 +17,7 @@ export const LeftContainer = styled.div`
   flex: 70%;
   display: flex;
   align-items: center;
-  padding-left: 5%;
+  padding-left: 1%;
 `;
 
 export const RightContainer = styled.div`
@@ -28,7 +28,7 @@ export const RightContainer = styled.div`
 `;
 
 export const NavbarInnerContainer = styled.div`
-  width: 100%;
+  width: 98vw;
   height: 100%;
   display: flex;
 `;
@@ -43,7 +43,7 @@ export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 15px;
   font-size: 1rem;
-  padding-bottom: 0px;
+  
 
   :hover {
     border-bottom: 1px solid #f7a600;

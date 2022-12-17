@@ -5,18 +5,21 @@ export const GlobalStyles = createGlobalStyle `
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    text-indent: 8px
+   
+
     ::-webkit-scrollbar {
-      width: 10px;
-      height: 10px;
+      width: 5px;
       transition:.5s;
+      background-color: #600227;
+      
     }
  
     
   }
   body {
-    background: #fff;
-   
+    background-color: #fffae7;
   }
   
   a {

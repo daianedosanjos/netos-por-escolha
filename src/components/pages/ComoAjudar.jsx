@@ -3,25 +3,28 @@ import doacao from "../img/doacao.png";
 import IrParaTopo from "./IrParaTopo";
 import { Link } from "react-router-dom";
 
-import { AjudaFinanceira, Container, HowToHelp } from "../styles/ComoAjudar";
+import {
+  AjudaFinanceira,
+  Container,
+  ComoAjudarContainer,
+  LinkButton,
+} from "../styles/ComoAjudar";
 
 function ComoAjudar() {
   return (
-    <HowToHelp>
+    <ComoAjudarContainer>
       <h3>
-        Seja bem vindo ao nosso time! Veja aqui o que você pode fazer para nos
-        ajudar: .
+        Veja aqui as várias maneiras que você tem para ajudar o Netos por Escolha a continuar com esse projeto.
       </h3>
       <Container>
         <div className="comoAjudar-cards">
           <h4>SEJA UM VOLUNTÁRIO</h4>
           <p>
-            Para se tornar um voluntário, clique no botão abaixo e se inscreva
-            através do formulario.
+            Você pode ajudar tornado-se um voluntário, clique no botão abaixo e faça seu cadastro.
           </p>
-          <div className="link">
-            <Link to="/cadastro">CADASTRE-SE</Link>
-          </div>
+          <LinkButton>
+          <Link className="link" to="/cadastro">CADASTRE-SE</Link>
+          </LinkButton>
         </div>
 
         <div>
@@ -31,11 +34,14 @@ function ComoAjudar() {
         <div className="comoAjudar-cards">
           <h4> DOAÇÃO DE MATERIAL</h4>
           <p>
-            Para doação de materias clique no botão abaixo e veja nossa lista{" "}
+            Para doação de materias clique no botão abaixo e veja a lista.
           </p>
-          <div className="link">
-            <Link to="/doacao">VEJA A LISTA</Link>
-          </div>
+          <LinkButton>
+          <Link className="link" to="/doacoes">VEJA A LISTA</Link>
+          </LinkButton>
+         
+      
+        
         </div>
       </Container>
 
@@ -47,7 +53,7 @@ function ComoAjudar() {
         <p>Chave pix: netosporescolhasalvador@gmail.com</p>
       </AjudaFinanceira>
       <IrParaTopo />
-    </HowToHelp>
+    </ComoAjudarContainer>
   );
 }
 

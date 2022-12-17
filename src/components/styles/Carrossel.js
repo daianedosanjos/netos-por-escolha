@@ -45,8 +45,9 @@ export const Buttons = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40rem;
+    margin-left: 41.5rem;
     margin-top: -30px;
+    
 `
 
 export const ButtonClick = styled.button `
@@ -54,5 +55,6 @@ export const ButtonClick = styled.button `
     border: none;
     margin-left: 1rem;
     cursor: pointer;
+    background-color: #fffae7;
 
   `
