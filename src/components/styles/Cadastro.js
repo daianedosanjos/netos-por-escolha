@@ -64,7 +64,7 @@ export const ButtonCadastro = styled.button `
 		
 
 			:hover{
-  				background-color: #0fe3ff;
+  				background-color: #b72a6e;
   				transform: scale(1.01);
 	}	
 `

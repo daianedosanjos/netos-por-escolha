@@ -72,8 +72,8 @@ function Formulario() {
         <FormContato>
           <form onSubmit={handleCreateMessage}>
              <div className="redesSociais">
-          <a href=""><InstagramLogo size={96} color="#b72a6e" weight="bold" /></a>
-          <a href=""><WhatsappLogo size={96} color="#2ab73a" weight="bold" /></a>
+          <a href="https://www.instagram.com/netosporescolha/"  target="_blank"><InstagramLogo size={96} color="#b72a6e" weight="bold" /></a>
+           <a href="https://wa.me/5571991548704" target="_blank"><WhatsappLogo size={96} color="#2ab73a" weight="bold" /></a>
           </div>
           <h4> Você também pode nos enviar uma mensagem através do formulário</h4>
             <input placeholder="Nome" onChange={handleInputValueNome} />

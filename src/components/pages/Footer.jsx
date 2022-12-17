@@ -11,9 +11,9 @@ function Footer () {
         <p>Copyright 2022 © Todos os direitos reservados - Desenvolvido por Daiane dos Anjos</p>                  
         </FooterStyled>
           <FooterSocial>
-        <a href="https://www.linkedin.com/in/daianeanjos/" className="linkedin"><FaLinkedinIn/></a>  
-        <a href="https://github.com/daianedosanjos" className="github"><FaGithub/></a>  
-        <a href="https://www.instagram.com/daianeanjos.sep/" className="instagram"><FaInstagram/></a> 
+        <a href="https://www.linkedin.com/in/daianeanjos/"  target="_blank" className="linkedin"><FaLinkedinIn/></a>  
+        <a href="https://github.com/daianedosanjos" target="_blank" className="github"><FaGithub/></a>  
+        <a href="https://www.instagram.com/daianeanjos.sep/"  target="_blank" className="instagram"><FaInstagram/></a> 
         </FooterSocial>	    
     </FooterContainer>
   )
