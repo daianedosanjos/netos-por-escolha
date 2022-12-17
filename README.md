@@ -1,10 +1,9 @@
-# Projeto final Reprograma 
+# Projeto Netos por Escolha
 
 ## Projeto
 ### 
 
 Esse foi meu projeto final usando as tecnologias que aprendi durante o bootcamp da Reprograma
-
 
 O site já está no ar e você pode acessar aqui: [Site Netos Por Escolha]()
 
