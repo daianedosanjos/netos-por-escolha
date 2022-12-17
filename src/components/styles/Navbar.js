@@ -43,7 +43,6 @@ export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 15px;
   font-size: 1rem;
-  
 
   :hover {
     border-bottom: 1px solid #f7a600;
@@ -57,26 +56,22 @@ export const NavbarLinkExtended = styled(Link)`
   color: white;
   font-size: x-large;
   text-decoration: none;
-  
 
   :hover {
     border-bottom: 1px solid #f7a600;
   }
-  
 `;
 
 export const Logo = styled.img`
   max-width: 180px;
   height: 130px;
   border-radius: 50%;
-
 `;
 
 export const Whatsapp = styled.img`
   max-width: 100px;
   height: 100px;
   border-radius: 50%;
-
 `;
 
 export const OpenLinksButton = styled.button`
@@ -97,7 +92,7 @@ export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   @media (min-width: 700px) {
     display: none;
   }

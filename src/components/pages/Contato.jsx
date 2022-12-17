@@ -10,10 +10,9 @@ import {
   ContatoContainer,
   Contatoformulario,
   ContatoImg,
-  FormContato,  
+  FormContato,
 } from "../styles/Contato";
 import { InstagramLogo, WhatsappLogo } from "phosphor-react";
-
 
 function Formulario() {
   const [nome, setNome] = useState("");
@@ -49,16 +48,23 @@ function Formulario() {
       texto: mensagem,
     });
 
-  e.target.reset()
+    e.target.reset();
   }
-  
-  
+
+  function ConfirmarEnvio() {
+    swal({
+      title:"Mensagem enviada!",
+      icon:'success'
+    });
+  }
 
   return (
     <ContatoContainer>
       <div>
         <h3>
-        Para mais informações sobre doações, voluntariado, projetos, parcerias, patrocínios e outros assuntos,  fale conosco através dos nossos contatos.
+          Para mais informações sobre doações, voluntariado, projetos,
+          parcerias, patrocínios e outros assuntos, fale conosco através dos
+          nossos contatos.
         </h3>
       </div>
       <Contatoformulario>
@@ -68,14 +74,24 @@ function Formulario() {
             alt="foto dos voluntários do Netos por Escolha"
           />
         </ContatoImg>
-        
+
         <FormContato>
           <form onSubmit={handleCreateMessage}>
-             <div className="redesSociais">
-          <a href="https://www.instagram.com/netosporescolha/"  target="_blank"><InstagramLogo size={96} color="#b72a6e" weight="bold" /></a>
-           <a href="https://wa.me/5571991548704" target="_blank"><WhatsappLogo size={96} color="#2ab73a" weight="bold" /></a>
-          </div>
-          <h4> Você também pode nos enviar uma mensagem através do formulário</h4>
+            <div className="redesSociais">
+              <a
+                href="https://www.instagram.com/netosporescolha/"
+                target="_blank"
+              >
+                <InstagramLogo size={96} color="#b72a6e" weight="bold" />
+              </a>
+              <a href="https://wa.me/5571999444234" target="_blank">
+                <WhatsappLogo size={96} color="#2ab73a" weight="bold" />
+              </a>
+            </div>
+            <h4>
+              {" "}
+              Você também pode nos enviar uma mensagem através do formulário
+            </h4>
             <input placeholder="Nome" onChange={handleInputValueNome} />
             <input placeholder="Email" onChange={handleInputValueEmail} />
             <input placeholder="Telefone" onChange={handleInputValuetelefone} />
@@ -83,8 +99,8 @@ function Formulario() {
               placeholder="Digite sua mensagem"
               onChange={handleInputValueMensagem}
             />
-            <ButtonContato type="submit">ENVIAR MENSAGEM</ButtonContato>
-            </form>
+            <ButtonContato onClick={ConfirmarEnvio} type="submit">ENVIAR MENSAGEM</ButtonContato>
+          </form>
         </FormContato>
       </Contatoformulario>
       <IrParaTopo />

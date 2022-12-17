@@ -13,7 +13,6 @@ import {
 } from "../styles/Navbar";
 import LogoImg from "../img/logo.jpg";
 
-
 function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
@@ -22,7 +21,6 @@ function Navbar() {
       <NavbarInnerContainer>
         <LeftContainer>
           <NavbarLinkContainer>
-            
             <NavbarLink to="/"> Home</NavbarLink>
             <NavbarLink to="/quemsomos">Quem somos</NavbarLink>
             <NavbarLink to="/comoajudar">Como ajudar</NavbarLink>
@@ -38,7 +36,7 @@ function Navbar() {
         </LeftContainer>
         <RightContainer>
           <Logo src={LogoImg}></Logo>
-          </RightContainer>
+        </RightContainer>
       </NavbarInnerContainer>
       {extendNavbar && (
         <NavbarExtendedContainer>

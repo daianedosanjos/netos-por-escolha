@@ -4,10 +4,9 @@ export const FooterContainer = styled.footer`
   gap: 1rem;
   background-color: #600227;
   height: 120px;
-  width: 100%
-    
+  width: 100%;
 `;
-export const FooterSocial = styled.div `
+export const FooterSocial = styled.div`
   border-radius: 5px;
   gap: 2rem;
   font-size: 1.3rem;
@@ -15,11 +14,7 @@ export const FooterSocial = styled.div `
   display: flex;
   margin-top: -2rem;
 
-    
-  
-
   .linkedin {
-    
     :hover {
       background: #0072b1;
     }
@@ -48,15 +43,15 @@ export const FooterSocial = styled.div `
       color: #fff;
     }
   }
-`
-export const FooterStyled = styled.footer `
+`;
+export const FooterStyled = styled.footer`
   width: 100%;
   color: #eee;
   padding: 3rem 1rem;
   justify-content: center;
-  display: flex; 
+  display: flex;
 
-  p{
-      margin-top: -1rem;
-    }
+  p {
+    margin-top: -1rem;
+  }
 `;

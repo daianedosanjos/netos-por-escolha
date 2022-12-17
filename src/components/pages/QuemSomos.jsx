@@ -19,10 +19,10 @@ function Story() {
             rotina. Meses depois à convite da prefeitura, me reuni com projetos
             sociais e redes sociais influentes para falar sobre solidariedade e
             terceiro setor e fui provocada: por que você não cria um projeto
-            social para idosos?. E em 2016 surge o 'Netos por escolha',
-            escolha, pois escolhemos amar nossos avôs e avós do coração.
-            começamos pequeninos e hoje já estamos em outras cidades como
-            Juazeiro, Conselheiro Lafaiete e São Paulo.
+            social para idosos?. E em 2016 surge o 'Netos por escolha', escolha,
+            pois escolhemos amar nossos avôs e avós do coração. começamos
+            pequeninos e hoje já estamos em outras cidades como Juazeiro,
+            Conselheiro Lafaiete e São Paulo.
           </p>
           <p>
             Já amamos e cuidamos de mais de 1000 idosos! O Netos por escolha

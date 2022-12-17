@@ -45,17 +45,25 @@ function Formulario() {
       email: email,
       telefone: telefone,
       texto: mensagem,
-    }); 
-
-    e.target.reset()    
+    });
+  
+    e.target.reset();
   }
+
+  function ConfirmarEnvio() {
+    swal({
+      title:"Cadastro realizado com sucesso!",
+      icon:'success'
+    });
+  }
+
   return (
     <FormularioContato>
       <div>
         <h3>
-          Que bom ter você aqui!
-          
-          Venha fazer parte da nossa equipe de voluntários e sinta, de perto, a satisfação de fazer o bem a que mais precisa.
+          Que bom ter você aqui! Venha fazer parte da nossa equipe de
+          voluntários e sinta, de perto, a satisfação de fazer o bem a que mais
+          precisa.
         </h3>
       </div>
       <FormContainer>
@@ -67,11 +75,8 @@ function Formulario() {
         </FormularioImg>
         <Form>
           <form onSubmit={handleCreateMessage}>
-             <div className="redesSociais">
-          </div>
-          <h4> Preencha o formulário e venha fazer parte do nosso time!
-            
-          </h4>
+            <div className="redesSociais"></div>
+            <h4> Preencha o formulário e venha fazer parte do nosso time!</h4>
             <input placeholder="Nome" onChange={handleInputValueNome} />
             <input placeholder="Email" onChange={handleInputValueEmail} />
             <input placeholder="Telefone" onChange={handleInputValuetelefone} />
@@ -79,8 +84,10 @@ function Formulario() {
               placeholder="Digite sua mensagem"
               onChange={handleInputValueMensagem}
             />
-            <ButtonCadastro type="submit">REALIZAR CADASTRO</ButtonCadastro>
-            </form>
+            <ButtonCadastro onClick={ConfirmarEnvio} type="submit">
+              REALIZAR CADASTRO
+            </ButtonCadastro>
+          </form>
         </Form>
       </FormContainer>
       <IrParaTopo />

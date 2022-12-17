@@ -14,16 +14,20 @@ function ComoAjudar() {
   return (
     <ComoAjudarContainer>
       <h3>
-        Veja aqui as várias maneiras que você tem para ajudar o Netos por Escolha a continuar com esse projeto.
+        Veja aqui as várias maneiras que você tem para ajudar o Netos por
+        Escolha a continuar com esse projeto.
       </h3>
       <Container>
         <div className="comoAjudar-cards">
           <h4>SEJA UM VOLUNTÁRIO</h4>
           <p>
-            Você pode ajudar tornado-se um voluntário, clique no botão abaixo e faça seu cadastro.
+            Você pode ajudar tornado-se um voluntário, clique no botão abaixo e
+            faça seu cadastro.
           </p>
           <LinkButton>
-          <Link className="link" to="/cadastro">CADASTRE-SE</Link>
+            <Link className="link" to="/cadastro">
+              CADASTRE-SE
+            </Link>
           </LinkButton>
         </div>
 
@@ -33,15 +37,12 @@ function ComoAjudar() {
 
         <div className="comoAjudar-cards">
           <h4> DOAÇÃO DE MATERIAL</h4>
-          <p>
-            Para doação de materias clique no botão abaixo e veja a lista.
-          </p>
+          <p>Para doação de materias clique no botão abaixo e veja a lista.</p>
           <LinkButton>
-          <Link className="link" to="/doacoes">VEJA A LISTA</Link>
+            <Link className="link" to="/doacoes">
+              VEJA A LISTA
+            </Link>
           </LinkButton>
-         
-      
-        
         </div>
       </Container>
 
