@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const FormularioContato = styled.section`
+
+  margin-top: 8rem;
+
   input {
-    width: 500px;
+    width: 460px;
     padding: 12px 32px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -12,7 +15,7 @@ export const FormularioContato = styled.section`
   }
 
   textarea {
-    width: 500px;
+    width: 460px;
     padding: 12px 32px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -29,7 +32,7 @@ export const FormularioContato = styled.section`
     text-decoration: none;
     font-size: 16px;
     margin-top: 1rem;
-    width: 500px;
+    width: 460px;
     border-radius: 4px;
     cursor: pointer;
     margin-left: 3rem;
@@ -40,10 +43,11 @@ export const FormularioContato = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
     margin: 5rem 10rem 5rem 10rem;
     color: #600227;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
   }
 
   h4 {
@@ -75,13 +79,12 @@ export const FormularioImg = styled.div`
     margin-bottom: 2rem;
     border-radius: 50%;
     display: grid;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: -2rem;
   }
 `;
 export const Form = styled.section`
-  width: 500px;
-  width: 600px;
+  width: 550px;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -89,4 +92,5 @@ export const Form = styled.section`
   background-color: #fdaad6;
   border-radius: 15px;
   margin-top: -1rem;
+  margin-left: -3rem;
 `;

@@ -6,23 +6,23 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
-    text-indent: 8px
-   
-
-    ::-webkit-scrollbar {
-      width: 5px;
-      transition:.5s;
-      background-color: #600227;
-      
-    }
- 
-    
   }
-  body {
+
+       :-webkit-scrollbar {
+       width: 5px;
+       transition:.5s;
+       background-color: #600227;      
+        }  
+
+body {
     background-color: #fffae7;
   }
+
+main{
+    width: 98%;
+  }
   
-  a {
+a {
     text-decoration: none;
   }
   
@@ -31,4 +31,5 @@ export const GlobalStyles = createGlobalStyle`
     list-style:none;
   }
  
-`;
+`
+

@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
 export const ContatoContainer = styled.section`
+    margin-top: 8rem;
+    width: 100%;
+    padding:0;
+    margin:0;
+    
+    
   input {
-    width: 500px;
+    width: 460px;
     padding: 12px 32px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -12,7 +18,7 @@ export const ContatoContainer = styled.section`
   }
 
   textarea {
-    width: 500px;
+    width: 460px;
     padding: 12px 32px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -29,7 +35,7 @@ export const ContatoContainer = styled.section`
     text-decoration: none;
     font-size: 16px;
     margin-top: 1rem;
-    width: 500px;
+    width: 460px;
     border-radius: 4px;
     cursor: pointer;
     margin-left: 3rem;
@@ -39,10 +45,18 @@ export const ContatoContainer = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
-    margin: 5rem 10rem 5rem 10rem;
+    margin-top: 10rem;
     margin-bottom: 8rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: #600227;
+    margin-right:0;  
+    text-align: center;
+    width: 70rem;
+    margin-left: 13rem;
   }
+
 `;
 
 export const ButtonContato = styled.button`
@@ -62,19 +76,21 @@ export const ButtonContato = styled.button`
 export const Contatoformulario = styled.section`
   display: flex;
 `;
-export const Container = styled.section``;
+
 export const ContatoImg = styled.div`
+
+
   img {
     width: 800px;
-    margin-bottom: 2rem;
-    border-radius: 50%;
-    display: grid;
-    margin-left: 2rem;
-    margin-top: -4rem;
+    margin-right:0;  
+    border-radius: 20%;
+    margin-top: -1rem;
+
+   
   }
 `;
 export const FormContato = styled.section`
-  width: 600px;
+  width: 550px;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -82,6 +98,7 @@ export const FormContato = styled.section`
   background-color: #fdaad6;
   border-radius: 15px;
   margin-top: -1rem;
+  margin-right:0;  
 
   .redesSociais {
     display: flex;
@@ -89,11 +106,12 @@ export const FormContato = styled.section`
     justify-content: center;
     gap: 30px;
     margin-bottom: 50px;
-    margin-top: -5rem;
+    margin-top: 1rem;
   }
 
   h4 {
     margin-bottom: 40px;
     text-align: center;
+    
   }
 `;

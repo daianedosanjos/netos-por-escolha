@@ -6,6 +6,7 @@ export const Home = styled.section`
   padding: 1rem;
   gap: 3rem;
   width: 100%;
+  
 `;
 
 export const HomeImg = styled.div`
@@ -17,7 +18,7 @@ export const HomeImg = styled.div`
   img {
     width: 98%;
     height: 15rem;
-    margin-top: 100px;
+    margin-top: 8rem;
     object-fit: cover;
     border-radius: 1rem;
   }

@@ -2,11 +2,15 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
-  width: 100vw;
+  width: 100%;
   height: ${(props) => (props.extendNavbar ? "30vh" : "80px")};
   background-color: #600227;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: fixed;
 
   @media (min-width: 700px) {
     height: 80px;
@@ -42,7 +46,7 @@ export const NavbarLink = styled(Link)`
   font-size: x-large;
   text-decoration: none;
   margin: 15px;
-  font-size: 1rem;
+  font-size: 1.3rem;
 
   :hover {
     border-bottom: 1px solid #f7a600;

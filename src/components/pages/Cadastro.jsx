@@ -62,7 +62,7 @@ function Formulario() {
       <div>
         <h3>
           Que bom ter você aqui! Venha fazer parte da nossa equipe de
-          voluntários e sinta, de perto, a satisfação de fazer o bem a que mais
+          voluntários e sinta, de perto, a satisfação de fazer o bem a quem mais
           precisa.
         </h3>
       </div>

@@ -3,7 +3,7 @@ import { useState } from "react";
 import swal from "sweetalert";
 import { database } from "../service/firebase";
 import { ref, push, set } from "firebase/database";
-import FotoCadastro from "../img/coracao.png";
+import FotoCoracao from "../img/coracao.png";
 import IrParaTopo from "./IrParaTopo";
 import {
   ButtonContato,
@@ -70,7 +70,7 @@ function Formulario() {
       <Contatoformulario>
         <ContatoImg>
           <img
-            src={FotoCadastro}
+            src={FotoCoracao}
             alt="foto dos voluntários do Netos por Escolha"
           />
         </ContatoImg>

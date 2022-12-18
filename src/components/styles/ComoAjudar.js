@@ -4,7 +4,7 @@ export const ComoAjudarContainer = styled.section`
   margin: rem;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 8rem;
 
   h4 {
     display: flex;
@@ -89,7 +89,7 @@ export const AjudaFinanceira = styled.section`
   margin-top: 20rem;
   width: 30rem;
   height: 15rem;
-  margin: 2rem 20rem 5rem 32rem;
+  margin: 2rem 20rem 5rem 32.5rem;
   justify-content: center;
   align-items: center;
   background-color: azure;

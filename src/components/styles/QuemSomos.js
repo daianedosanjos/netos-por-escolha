@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const WhoWeAre = styled.section`
-  margin-top: 5rem;
   line-height: 1.8rem;
   font-size: 1.3rem;
   margin: 2rem;
   text-indent: 8px;
+  margin-top: 8rem;
+  
 `;
 export const OurStory = styled.section`
   display: flex;
