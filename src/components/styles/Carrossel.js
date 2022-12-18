@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Home = styled.section`
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding-top: 5rem;
   gap: 3rem;
   width: 100%;
   

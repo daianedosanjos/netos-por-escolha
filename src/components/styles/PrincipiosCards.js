@@ -19,6 +19,7 @@ export const Container = styled.div`
   height: 16rem;
   margin-top: -6rem;
   font-weight: 400;
+  width: 100%
  
 
     p {
