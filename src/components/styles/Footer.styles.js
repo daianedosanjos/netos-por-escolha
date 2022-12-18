@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
   background-color: #600227;
   height: 120px;
   width: 100%;
-  padding: 5%
+  
 `;
 export const FooterSocial = styled.div`
   border-radius: 5px;
