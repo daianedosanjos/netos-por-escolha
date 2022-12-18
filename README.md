@@ -18,7 +18,7 @@ O site já está no ar e você pode acessar aqui: [Site Netos Por Escolha](https
 | `npm` | gerenciador de pacotes|
 | `Firebase` | Ferramenta realtime database para gravar as mensagens de contato|
 | `Styled components` | Biblioteca (lib) do React e do React Native que nos permite criar componentes de estilo ao escrever códigos CSS dentro de um arquivo JavaScript|
-| `React-icons` | Dependência com icones|
+| `Phosphor icons` | Dependência com icones|
 | `React router dom` | Dependência para criar rotas no reactjs|
 | `Vercel` | Hospedagem para a aplicação, fiz o deploy integrado com o github|
 | `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
