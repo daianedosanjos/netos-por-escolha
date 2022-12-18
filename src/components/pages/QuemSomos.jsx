@@ -1,7 +1,7 @@
 import React from "react";
 import anarosa from "../img/anarosa.jpg";
 import IrParaTopo from "./IrParaTopo";
-import { OurStory, Performance, WhoWeAre } from "../styles/QuemSomos";
+import { OurStory, Performance, WhoWeAre } from "../styles/QuemSomos.styles";
 
 function Story() {
   return (

@@ -10,7 +10,7 @@ import {
   Logo,
   OpenLinksButton,
   NavbarLinkExtended,
-} from "../styles/Navbar";
+} from "../styles/Navbar.styles";
 import LogoImg from "../img/logo.jpg";
 
 function Navbar() {

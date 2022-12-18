@@ -2,7 +2,7 @@ import React from "react";
 import missao from "../img/missao.png";
 import visao from "../img/visao.png";
 import valores from "../img/valores.png";
-import { Principios, Title, Img } from "../styles/PrincipiosImg";
+import { Principios, Title, Img } from "../styles/PrincipiosImg.styles";
 import PrincipiosCards from "./PrincipiosCards";
 
 function PrinciplesImg() {

@@ -8,7 +8,7 @@ import {
   Container,
   ComoAjudarContainer,
   LinkButton,
-} from "../styles/ComoAjudar";
+} from "../styles/ComoAjudar.styles";
 
 function ComoAjudar() {
   return (

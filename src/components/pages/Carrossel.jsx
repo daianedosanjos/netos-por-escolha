@@ -8,7 +8,7 @@ import {
   Buttons,
   Itens,
   ButtonClick,
-} from "../styles/Carrossel";
+} from "../styles/Carrossel.stalys";
 import PrincipiosImg from "./PrincipioaImg";
 
 import foto1 from "../img/foto1.jpg";

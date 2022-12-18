@@ -11,7 +11,7 @@ import {
   FormularioImg,
   FormContainer,
   ButtonCadastro,
-} from "../styles/Cadastro";
+} from "../styles/Cadastro.styles.js";
 
 function Formulario() {
   const [nome, setNome] = useState("");

@@ -1,5 +1,5 @@
 import React from "react";
-import { CardPrinciples, Container } from "../styles/PrincipiosCards";
+import { CardPrinciples, Container } from "../styles/PrincipiosCards.stylesjs";
 
 function PrincipiosCards() {
   return (

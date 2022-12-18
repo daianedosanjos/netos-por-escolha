@@ -11,7 +11,7 @@ import {
   Contatoformulario,
   ContatoImg,
   FormContato,
-} from "../styles/Contato";
+} from "../styles/Contato.styles";
 import { InstagramLogo, WhatsappLogo } from "phosphor-react";
 
 function Formulario() {

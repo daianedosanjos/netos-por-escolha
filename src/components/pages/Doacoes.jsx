@@ -1,4 +1,4 @@
-import { Lista } from "../styles/Doacoes";
+import { Lista } from "../styles/Doacoes.styles";
 
 function Doacoes() {
   return (
