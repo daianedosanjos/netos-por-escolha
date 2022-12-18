@@ -19,14 +19,15 @@ export const Container = styled.div`
   height: 16rem;
   margin-top: -6rem;
   font-weight: 400;
-  width: 100%
- 
+  width: 100%;
+  line-height: 2rem;
+  font-size: 1.1rem;
+
 
     p {
     width: 25rem;
     height: 11rem;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
+    
     margin-top: 2rem;
     margin-left: 1.5rem;
    
@@ -39,4 +40,4 @@ export const Container = styled.div`
     margin-top: 1rem;
     
   }
-`;
+`
