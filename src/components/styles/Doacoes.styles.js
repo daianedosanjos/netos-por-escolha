@@ -17,7 +17,7 @@ export const DoacaoContainer = styled.main`
       font-size: 1.1rem;
     }
   }
-  }
+  
 
   h4 {
     margin-top: 2rem;
