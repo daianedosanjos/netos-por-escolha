@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/pages/Navbar";
-import Carrossel from "./components/pages/Carrossel";
+import Home from "./components/pages/Home";
 import QuemSomos from "./components/pages/QuemSomos";
 import ComoAjudar from "./components/pages/ComoAjudar";
 import Contato from "./components/pages/Contato";
@@ -13,7 +13,7 @@ function Router() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-      <Route path="/" element={<Carrossel />} />
+      <Route path="/" element={<Home />} />
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/comoajudar" element={<ComoAjudar />} />
         <Route path="/contato" element={<Contato />} />
