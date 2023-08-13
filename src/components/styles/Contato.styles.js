@@ -9,6 +9,8 @@ export const ContatoContainer = styled.section`
   margin: auto;
 
   h2 {
+
+    margin-top: 1rem;
     @media (min-width: 280px) and (max-width: 780px) {
       font-size: 1rem;
     }
