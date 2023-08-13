@@ -12,7 +12,6 @@ function Router() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Carrossel />} />
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/comoajudar" element={<ComoAjudar />} />
         <Route path="/contato" element={<Contato />} />
