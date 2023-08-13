@@ -7,17 +7,15 @@ export const FooterContainer = styled.footer`
   width: 100%;
   bottom: 0;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   color: white;
   padding: 1rem;
 
-  @media ((min-width: 319px) and (max-width: 450px)) {
-	 font-size: .7rem;   
+  @media ((min-width: 280px) and (max-width: 780px)) {
+    font-size: 0.7rem;
   }
- 
-  
 `;
 export const FooterSocial = styled.div`
   border-radius: 5px;
@@ -25,9 +23,6 @@ export const FooterSocial = styled.div`
   font-size: 1.3rem;
   justify-content: center;
   display: flex;
-
- 
- 
 
   .linkedin {
     :hover {

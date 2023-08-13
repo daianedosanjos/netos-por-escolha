@@ -16,33 +16,48 @@ import LogoImg from "../../img/logo.jpg";
 function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
+  const toggleNavbar = () => {
+    setExtendNavbar((curr) => !curr);
+  };
+
+  const closeNavbar = () => {
+    setExtendNavbar(false);
+  };
+
   return (
     <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
           <NavbarLinkContainer>
-            <NavbarLink to="/"> Home</NavbarLink>
-            <NavbarLink to="/quemsomos">Quem somos</NavbarLink>
-            <NavbarLink to="/comoajudar">Como ajudar</NavbarLink>
-            <OpenLinksButton
-              onClick={() => {
-                setExtendNavbar((curr) => !curr);
-              }}
-            >
+            <NavbarLink to="/" onClick={closeNavbar}>
+              Home
+            </NavbarLink>
+            <NavbarLink to="/quemsomos" onClick={closeNavbar}>
+              Quem somos
+            </NavbarLink>
+            <NavbarLink to="/comoajudar" onClick={closeNavbar}>
+              Como ajudar
+            </NavbarLink>
+            <OpenLinksButton onClick={toggleNavbar}>
               {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
             </OpenLinksButton>
           </NavbarLinkContainer>
         </LeftContainer>
         <RightContainer>
-          <Logo src={LogoImg}></Logo>
+          <Logo src={LogoImg} alt="Logo"></Logo>
         </RightContainer>
       </NavbarInnerContainer>
       {extendNavbar && (
         <NavbarExtendedContainer>
-          <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-          <NavbarLinkExtended to="/quemsomos"> Quem somos</NavbarLinkExtended>
-          <NavbarLinkExtended to="/comoajudar">Como ajudar</NavbarLinkExtended>
-        
+          <NavbarLinkExtended to="/" onClick={closeNavbar}>
+            Home
+          </NavbarLinkExtended>
+          <NavbarLinkExtended to="/quemsomos" onClick={closeNavbar}>
+            Quem somos
+          </NavbarLinkExtended>
+          <NavbarLinkExtended to="/comoajudar" onClick={closeNavbar}>
+            Como ajudar
+          </NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

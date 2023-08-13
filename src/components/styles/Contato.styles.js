@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const ContatoContainer = styled.section`
-  
-  width: 100vw;
+  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,8 +9,6 @@ export const ContatoContainer = styled.section`
   text-align: center;
 
   h2 {
-
-
     @media (min-width: 280px) and (max-width: 780px) {
       font-size: 1rem;
     }
