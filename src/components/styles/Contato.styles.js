@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContatoContainer = styled.section`
-  width: 90vw;
+  width: 95vw;
   display: flex;
   align-items: center;
   justify-content: center;

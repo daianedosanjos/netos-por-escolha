@@ -8,6 +8,7 @@ export const ComoAjudarContainer = styled.main`
   flex-wrap: wrap;
   margin-bottom: 5rem;
   margin-top: 10rem;
+  width: 95vw;
 
   h2 {
     color: #600227;
