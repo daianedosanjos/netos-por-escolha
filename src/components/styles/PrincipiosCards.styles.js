@@ -7,7 +7,7 @@ export const CardPrinciples = styled.section`
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 5rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
   
 `;
 export const Container = styled.div`
@@ -20,7 +20,7 @@ export const Container = styled.div`
   line-height: 2rem;
   font-size: 1.1rem;
   width: 30rem;
-  height: 20rem;
+  height: auto;
   padding: 2rem;
   margin: 1rem;
 
@@ -30,9 +30,15 @@ h3{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  border-radius: 15px;
+  font-size: 1.5rem ;
+  border-radius: 15px 15px 0 0;
   color: white;
+
+  @media ((min-width: 220px) and (max-width: 780px)) {
+    font-size: 1rem;
+   
+  }
+
   
 }
 
@@ -42,7 +48,7 @@ p {
   padding: 1rem;
 }
  
-  @media ((min-width: 319px) and (max-width: 450px)) {
+  @media ((min-width: 220px) and (max-width: 780px)) {
 	 width: 90vw;
    font-size: .9rem;
    line-height: 1.5rem;

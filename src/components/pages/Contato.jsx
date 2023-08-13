@@ -1,5 +1,5 @@
 import React from "react";
-import FotoCoracao from "../img/coracao.png";
+import FotoCoracao from "../../img/coracao.png";
 import IrParaTopo from "./IrParaTopo";
 import { ContatoContainer, Img, RedesSociais } from "../styles/Contato.styles";
 import { InstagramLogo, WhatsappLogo } from "phosphor-react";

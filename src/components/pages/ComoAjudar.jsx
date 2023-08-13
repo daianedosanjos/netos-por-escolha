@@ -1,5 +1,5 @@
 import React from "react";
-import doacao from "../img/doacao.png";
+import doacao from "../../img/doacao.png";
 import IrParaTopo from "./IrParaTopo";
 import { Link } from "react-router-dom";
 

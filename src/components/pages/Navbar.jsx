@@ -11,7 +11,7 @@ import {
   OpenLinksButton,
   NavbarLinkExtended,
 } from "../styles/Navbar.styles";
-import LogoImg from "../img/logo.jpg";
+import LogoImg from "../../img/logo.jpg";
 
 function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);

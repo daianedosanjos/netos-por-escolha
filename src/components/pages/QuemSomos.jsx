@@ -1,5 +1,5 @@
 import React from "react";
-import anarosa from "../img/anarosa.jpg";
+import anarosa from "../../img/anarosa.jpg";
 import IrParaTopo from "./IrParaTopo";
 import { ContainerDivs, ContainerWhoWeAre, HowItAllBegan, HowWeAct } from "../styles/QuemSomos.styles";
 
