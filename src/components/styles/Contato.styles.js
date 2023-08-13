@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ContatoContainer = styled.section`
-  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin: auto;
 
   h2 {
     @media (min-width: 280px) and (max-width: 780px) {

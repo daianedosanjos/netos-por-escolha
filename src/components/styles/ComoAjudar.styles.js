@@ -5,15 +5,15 @@ export const ComoAjudarContainer = styled.main`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-bottom: 5rem;
-  margin-top: 10rem;
-  width: 90vw;
+  text-align: center;
+  margin: auto;
+
 
   h2 {
     color: #600227;
     text-align: center;
     width: 90vw;
+    margin-top: 10rem;
 
     @media ((min-width: 280px) and (max-width: 780px)) {
       font-size: 1.1rem;
@@ -40,7 +40,7 @@ export const Card = styled.div`
   border: 1px solid #eee;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-  width: 30rem;
+  max-width: 30rem; 
   height: 15rem;
   background-color: azure;
   text-align: center;
@@ -49,13 +49,14 @@ export const Card = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: auto;
 
   p {
     font-size: 1.5rem;
   }
 
   @media ((min-width: 280px) and (max-width: 780px)) {
-    width: 90vw;
+    width: 92vw;
 
     p {
       font-size: 1rem;
