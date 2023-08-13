@@ -24,7 +24,6 @@ function Navbar() {
             <NavbarLink to="/"> Home</NavbarLink>
             <NavbarLink to="/quemsomos">Quem somos</NavbarLink>
             <NavbarLink to="/comoajudar">Como ajudar</NavbarLink>
-            <NavbarLink to="/contato">Contato</NavbarLink>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -43,7 +42,7 @@ function Navbar() {
           <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
           <NavbarLinkExtended to="/quemsomos"> Quem somos</NavbarLinkExtended>
           <NavbarLinkExtended to="/comoajudar">Como ajudar</NavbarLinkExtended>
-          <NavbarLinkExtended to="/contatos">Contato</NavbarLinkExtended>
+        
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

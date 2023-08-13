@@ -1,15 +1,18 @@
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-import { FooterContainer, FooterSocial, FooterStyled } from "../styles/Footer.styles";
+import { FooterContainer, FooterSocial } from "../styles/Footer.styles";
 
 function Footer() {
   return (
     <FooterContainer>
-      <FooterStyled>
+      <div>
         <p>
-          Copyright 2022 © Todos os direitos reservados - Desenvolvido por
-          Daiane dos Anjos
+          Copyright 2023 © Todos os direitos reservados 
         </p>
-      </FooterStyled>
+      </div>
+      <div>
+        <p>Desenvolvido por
+          Daiane dos Anjos</p>
+      </div>
       <FooterSocial>
         <a
           href="https://www.linkedin.com/in/daianeanjos/"

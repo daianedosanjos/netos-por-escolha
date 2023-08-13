@@ -1,11 +1,8 @@
 import styled from "styled-components";
 
 export const Home = styled.section`
-  display: flex;
-  flex-wrap: wrap;
   padding-top: 5rem;
   gap: 3rem;
-  width: 100%;
   
 `;
 
@@ -37,12 +34,11 @@ export const Itens = styled.div`
 `;
 
 export const Buttons = styled.div`
-  gap: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 41.5rem;
-  margin-top: -30px;
+ margin: auto;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #600227;
 `;
 
 export const ButtonClick = styled.button`

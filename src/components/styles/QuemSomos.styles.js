@@ -1,56 +1,65 @@
 import styled from "styled-components";
 
-export const WhoWeAre = styled.section`
-  line-height: 1.8rem;
-  font-size: 1.3rem;
-  margin: 2rem;
-  text-indent: 8px;
+export const ContainerWhoWeAre = styled.section`
+  line-height: 2.4rem;;
+  font-size: 1.4rem;
+ 
   margin-top: 8rem;
-  
-`;
-export const OurStory = styled.section`
   display: flex;
-  margin: 1rem;
-
-  img {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+   
+  @media ((min-width: 319px) and (max-width: 720px)) {
+	 font-size: .9rem;
+   line-height: 1.5rem; 
+  
+   
+  }
+  
+  img{
     border-radius: 15px;
-    margin-left: 1rem;
+    max-width: 90vw;
   }
 
-  h1 {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  p {
-    margin-left: 2rem;
-  }
-`;
-export const Performance = styled.section`
-  padding: -2rem;
-  gap: 2rem;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgb(0, 0, 2, 0.2);
-  line-height: 2.3rem;
-  background-color: azure;
-  margin: 2rem 8rem 2rem 8rem;
-  height: 21rem;
-
-  h1 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3rem;
-    margin-top: 1rem;
-    color: #600227;
-    font-size: 2rem;
+  h3{
     padding: 1rem;
-  }
-
-  p {
-    margin: 2rem 8rem 2rem 8rem;
-    margin-top: -3rem;
+    text-align: center;
   }
 `;
+
+export const HowItAllBegan = styled.div `
+background-color: azure;
+padding: 2rem;
+margin: 1rem;
+
+@media ((min-width: 319px) and (max-width: 500px)) {
+	 font-size: .9rem;
+   line-height: 1.5rem; 
+  
+   
+  }
+`
+
+export const HowWeAct = styled.div `
+background-color: azure;
+padding: 2rem;
+margin: 1rem;
+
+@media ((min-width: 319px) and (max-width: 500px)) {
+	 font-size: .9rem;
+   line-height: 1.5rem; 
+ 
+   
+  }
+`
+
+export const ContainerDivs = styled.div`
+
+@media ((min-width: 319px) and (max-width: 500px)) {
+	 margin: auto;
+   
+  }
+
+`

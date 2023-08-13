@@ -4,55 +4,59 @@ import IrParaTopo from "./IrParaTopo";
 import { Link } from "react-router-dom";
 
 import {
-  AjudaFinanceira,
   Container,
   ComoAjudarContainer,
   LinkButton,
+  Card,
 } from "../styles/ComoAjudar.styles";
+import Contato from "./Contato";
 
 function ComoAjudar() {
   return (
     <ComoAjudarContainer>
-      <h3>
+      <h2>
         Veja aqui as várias maneiras que você tem para ajudar o Netos por
         Escolha a continuar com esse projeto.
-      </h3>
+      </h2>
+      <div>
+        <img src={doacao} alt="" />
+      </div>
       <Container>
-        <div className="comoAjudar-cards">
+        <Card>
           <h4>SEJA UM VOLUNTÁRIO</h4>
           <p>
-            Você pode ajudar tornado-se um voluntário, clique no botão abaixo e
-            faça seu cadastro.
+            Seja voluntário! Clique abaixo e cadastre-se para oferecer sua ajuda
+            e fazer a diferença.
           </p>
           <LinkButton>
-            <Link className="link" to="/cadastro">
+            <a href="https://wa.me/5571999444234" target="_blank">
               CADASTRE-SE
-            </Link>
+            </a>
           </LinkButton>
-        </div>
+        </Card>
 
-        <div>
-          <img src={doacao} alt="" />
-        </div>
-
-        <div className="comoAjudar-cards">
+        <Card>
           <h4> DOAÇÃO DE MATERIAL</h4>
-          <p>Para doação de materias clique no botão abaixo e veja a lista.</p>
+          <p>
+            Para contribuir com doações de materiais, clique no botão abaixo
+            para acessar a lista completa
+          </p>
           <LinkButton>
             <Link className="link" to="/doacoes">
               VEJA A LISTA
             </Link>
           </LinkButton>
-        </div>
-      </Container>
+        </Card>
 
-      <AjudaFinanceira>
-        <h4>AJUDA FINANCEIRA</h4>
-        <p>DADOS BANCÁRIOS</p>
-        <p>Banco Nubank (0260)</p>
-        <p>Agência: 0001</p>
-        <p>Chave pix: netosporescolhasalvador@gmail.com</p>
-      </AjudaFinanceira>
+        <Card>
+          <h4>AJUDA FINANCEIRA</h4>
+          <p>DADOS BANCÁRIOS</p>
+          <p>Banco Nubank (0260)</p>
+          <p>Agência: 0001</p>
+          <p>Chave pix: netosporescolhasalvador@gmail.com</p>
+        </Card>
+      </Container>
+      <Contato />
       <IrParaTopo />
     </ComoAjudarContainer>
   );

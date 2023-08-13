@@ -1,74 +1,94 @@
 import styled from "styled-components";
 
-export const ComoAjudarContainer = styled.section`
-  margin: rem;
+export const ComoAjudarContainer = styled.main`
+ display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 8rem;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
 
-  h4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h2 {
     color: #600227;
-    font-size: 1.3rem;
+    text-align: center;
+    width: 90vw;
+
+    @media ((min-width: 319px) and (max-width: 450px)) {
+      font-size: 1.1rem;   
+    
+   
+  }
+     
   }
 
-  h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #600227;
-    font-size: 1.5rem;
-    width: 70rem;
-    margin-left: 11rem;
-    text-align: center;
+  img {
+    width: 150px;
+    margin: 3rem;
+
   }
 `;
 
 export const Container = styled.section`
-  display: flex;
+ display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  gap: 2rem;
+  
 
-  img {
-    width: 400px;
-  }
+`
 
-  .comoAjudar-cards {
+export const Card  = styled.div `
     border: 1px solid #eee;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-    padding: 1em;
-    margin-top: 5rem;
     width: 30rem;
     height: 15rem;
     background-color: azure;
-    justify-content: center;
-  }
-
-  p {
-    width: 25rem;
-    height: 11rem;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
-    margin: 2rem 2rem 0rem 2rem;
     text-align: center;
-  }
-`;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-export const LinkButton = styled.div`
-  margin-top: -3.5rem;
-  margin-left: 9rem;
+    p{
+      font-size: 1.5rem;
+    }
+
+    @media ((min-width: 319px) and (max-width: 450px)) {
+      width: 95vw;
+      
+      p{      
+      font-size: 1rem;
+      }
+    
+   
+  }
+
+    h4{
+      margin-bottom: 1rem;
+     
+    }
+  `
+
+export const LinkButton = styled.button`
   background-color: #600227;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 10rem;
   height: 2rem;
-  border-radius: 5rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: background-color, transform 0.8s;
+
+  a {
+    color: white;
+  }
 
   :hover {
     background-color: #b72a6e;
@@ -77,27 +97,5 @@ export const LinkButton = styled.div`
 
   .link {
     color: white;
-  }
-`;
-export const AjudaFinanceira = styled.section`
-  padding: -2rem;
-  gap: 2rem;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-  padding: 1rem;
-  margin-top: 20rem;
-  width: 30rem;
-  height: 15rem;
-  margin: 2rem 20rem 5rem 32.5rem;
-  justify-content: center;
-  align-items: center;
-  background-color: azure;
-
-  p {
-    line-height: 0.1rem;
-    font-size: 1rem;
-    margin-top: 2rem;
-    text-align: center;
   }
 `;

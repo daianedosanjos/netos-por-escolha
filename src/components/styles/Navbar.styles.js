@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
-  width: 100%;
-  height: ${(props) => (props.extendNavbar ? "30vh" : "80px")};
+  width: 100vw;
+  height: ${(props) => (props.extendNavbar ? "400px" : "100px")};
   background-color: #600227;
   display: flex;
   flex-direction: column;
@@ -12,9 +12,9 @@ export const NavbarContainer = styled.nav`
   left: 0;
   position: fixed;
 
-  @media (min-width: 700px) {
-    height: 80px;
-  }
+  /* @media (min-width: 380px) and (max-width: 700px) {
+    height: 150px;
+  } */
 `;
 
 export const LeftContainer = styled.div`
@@ -29,6 +29,7 @@ export const RightContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   padding-right: 50px;
+  margin-top: 1rem;
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -39,7 +40,7 @@ export const NavbarInnerContainer = styled.div`
 
 export const NavbarLinkContainer = styled.div`
   display: flex;
-`;
+  `;
 
 export const NavbarLink = styled(Link)`
   color: white;
@@ -60,6 +61,7 @@ export const NavbarLinkExtended = styled(Link)`
   color: white;
   font-size: x-large;
   text-decoration: none;
+  margin-bottom: ${(props) => (props.extendNavbar ? "" : "1rem")};
 
   :hover {
     border-bottom: 1px solid #f7a600;
@@ -96,8 +98,11 @@ export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: ${(props) => (props.extendNavbar ? "" : "2rem")};
+  
 
   @media (min-width: 700px) {
     display: none;
+   
   }
 `;

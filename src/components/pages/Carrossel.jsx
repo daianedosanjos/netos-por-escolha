@@ -8,8 +8,8 @@ import {
   Buttons,
   Itens,
   ButtonClick,
-} from "../styles/Carrossel.stalys";
-import PrincipiosImg from "./PrincipioaImg";
+} from "../styles/Carrossel.styles";
+
 
 import foto1 from "../img/foto1.jpg";
 import foto2 from "../img/foto2.jpg";
@@ -24,6 +24,7 @@ import foto11 from "../img/foto11.jpg";
 import foto12 from "../img/foto12.jpg";
 import foto13 from "../img/foto13.jpg";
 import foto14 from "../img/foto14.jpg";
+import PrincipiosCards from "./PrincipiosCards";
 
 const images = [
   foto1,
@@ -39,6 +40,7 @@ const images = [
   foto12,
   foto13,
   foto14,
+
 ];
 
 function Carrossel() {
@@ -73,7 +75,7 @@ function Carrossel() {
           <CaretRight size={32} color="#600227" weight="bold" />
         </ButtonClick>
       </Buttons>
-      <PrincipiosImg />
+      <PrincipiosCards />
       <IrParaTopo />
     </Home>
   );

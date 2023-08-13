@@ -5,6 +5,18 @@ export const FooterContainer = styled.footer`
   background-color: #600227;
   height: 120px;
   width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 1rem;
+
+  @media ((min-width: 319px) and (max-width: 450px)) {
+	 font-size: .7rem;   
+  }
+ 
   
 `;
 export const FooterSocial = styled.div`
@@ -13,7 +25,9 @@ export const FooterSocial = styled.div`
   font-size: 1.3rem;
   justify-content: center;
   display: flex;
-  margin-top: -2rem;
+
+ 
+ 
 
   .linkedin {
     :hover {
@@ -43,16 +57,5 @@ export const FooterSocial = styled.div`
     svg {
       color: #fff;
     }
-  }
-`;
-export const FooterStyled = styled.footer`
-  width: 100%;
-  color: #eee;
-  padding: 3rem 1rem;
-  justify-content: center;
-  display: flex;
-
-  p {
-    margin-top: -1rem;
   }
 `;

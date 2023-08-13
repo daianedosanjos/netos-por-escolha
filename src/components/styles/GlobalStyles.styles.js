@@ -18,9 +18,6 @@ body {
     background-color: #fffae7;
   }
 
-main{
-    width: 98%;
-  }
   
 a {
     text-decoration: none;
