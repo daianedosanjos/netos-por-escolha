@@ -17,7 +17,7 @@ export const ContatoContainer = styled.section`
 
 export const Img = styled.div`
   img {
-    width: 300px;
+    width: 280px;
     margin-top: 5rem;
   }
 `;
