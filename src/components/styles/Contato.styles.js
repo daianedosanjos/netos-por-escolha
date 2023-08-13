@@ -8,11 +8,12 @@ export const ContatoContainer = styled.section`
   text-align: center;
   margin: auto;
 
-  h2 {
+  h4 {
 
-    margin-top: .5rem;
+  margin-top: 2rem;
+  font-size: 1.4rem;
 
-    @media (min-width: 280px) and (max-width: 780px) {
+      @media (min-width: 280px) and (max-width: 780px) {
       font-size: 1rem;
     }
   }

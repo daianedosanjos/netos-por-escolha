@@ -32,8 +32,8 @@ export const Container = styled.section`
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 5rem;
   gap: 2rem;
+  margin-bottom: 0;
 `;
 
 export const Card = styled.div`

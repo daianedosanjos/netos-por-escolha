@@ -8,11 +8,11 @@ function Contato() {
   return (
     <ContatoContainer>
       <div>
-        <h2>
+        <h4>
           Para obter mais informações sobre doações, voluntariado, projetos,
           parcerias, patrocínios e outros assuntos, entre em contato conosco por
           meio dos nossos contatos
-        </h2>
+        </h4>
       </div>
       <RedesSociais>
           <a href="https://www.instagram.com/netosporescolha/" target="_blank">
