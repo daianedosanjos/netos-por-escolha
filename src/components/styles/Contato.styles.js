@@ -17,12 +17,8 @@ export const ContatoContainer = styled.section`
 
 export const Img = styled.div`
   img {
-    width: 800px;
+    width: 300px;
     margin-top: 5rem;
-
-    @media (min-width: 280px) and (max-width: 780px) {
-      width: 300px;
-    }
   }
 `;
 export const RedesSociais = styled.div`

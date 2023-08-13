@@ -22,6 +22,7 @@ export const DoacaoContainer = styled.main`
   h4 {
     margin-top: 2rem;
     text-align: center;
+    padding: .8rem;
   }
 `;
 

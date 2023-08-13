@@ -54,7 +54,7 @@ export const Card = styled.div`
   }
 
   @media ((min-width: 280px) and (max-width: 780px)) {
-    width: 95vw;
+    width: 90vw;
 
     p {
       font-size: 1rem;
