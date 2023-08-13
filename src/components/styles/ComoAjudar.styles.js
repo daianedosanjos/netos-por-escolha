@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ComoAjudarContainer = styled.main`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 5rem;
@@ -28,7 +28,7 @@ export const ComoAjudarContainer = styled.main`
 export const Container = styled.section`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 5rem;

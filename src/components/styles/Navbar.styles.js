@@ -28,7 +28,7 @@ export const RightContainer = styled.div`
   flex: 30%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
+  padding-right: 10px;
   margin-top: 1rem;
 `;
 
