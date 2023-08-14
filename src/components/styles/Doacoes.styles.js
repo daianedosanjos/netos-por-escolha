@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const DoacaoContainer = styled.main`
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  height: 70rem;
+  text-align: center;
+  width: 100%;
+
 
   h2{
     margin-bottom: 1rem;
@@ -13,13 +15,13 @@ export const DoacaoContainer = styled.main`
     text-align: center;
     padding: .8rem;
 
-    @media ((min-width: 280px) and (max-width: 780px)) {
+    @media ((min-width: 280px) and (max-width: 1000px)) {
       font-size: 1.1rem;
     }
   }
   
 
-  h4 {
+  h3 {
     margin-top: 2rem;
     text-align: center;
     padding: .8rem;

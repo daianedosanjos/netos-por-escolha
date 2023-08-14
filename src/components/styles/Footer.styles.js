@@ -4,7 +4,7 @@ export const FooterContainer = styled.footer`
   gap: 1rem;
   background-color: #600227;
   height: 120px;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@ export const FooterContainer = styled.footer`
   color: white;
   padding: 1rem;
 
-  @media ((min-width: 280px) and (max-width: 780px)) {
+  @media ((min-width: 280px) and (max-width: 1000px)) {
     font-size: 0.7rem;
   }
 `;

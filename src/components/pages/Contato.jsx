@@ -1,18 +1,16 @@
-import React from "react";
 import FotoCoracao from "../../img/coracao.png";
-import IrParaTopo from "./IrParaTopo";
-import { ContatoContainer, Img, RedesSociais } from "../styles/Contato.styles";
+import { ContainerContato, Img, RedesSociais } from "../styles/Contato.styles";
 import { InstagramLogo, WhatsappLogo } from "phosphor-react";
 
 function Contato() {
   return (
-    <ContatoContainer>
+    <ContainerContato>
       <div>
-        <h4>
+        <h2>
           Para obter mais informações sobre doações, voluntariado, projetos,
           parcerias, patrocínios e outros assuntos, entre em contato conosco por
           meio dos nossos contatos
-        </h4>
+        </h2>
       </div>
       <RedesSociais>
           <a href="https://www.instagram.com/netosporescolha/" target="_blank">
@@ -28,12 +26,8 @@ function Contato() {
             src={FotoCoracao}
             alt="foto dos voluntários do Netos por Escolha"
           />
-        </Img>
-
-      
-    
-      <IrParaTopo />
-    </ContatoContainer>
+        </Img> 
+    </ContainerContato>
   );
 }
 export default Contato;

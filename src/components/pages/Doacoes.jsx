@@ -33,11 +33,11 @@ function Doacoes() {
     <li>Computadores ou tablets</li>
     </ul>  
 </Lista>
-<h4>
+<h2>
     Se a empresa deseja realizar uma campanha interna para arrecadar doações
     de produtos, entre em contato pelo e-mail:
     netosporescolhasalvador@gmail.com
-  </h4>
+  </h2>
 </DoacaoContainer>
 
   );

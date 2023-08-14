@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
-export const ContainerWhoWeAre = styled.section`
-  line-height: 2.4rem;
-  font-size: 1.4rem;
-
-  margin-top: 8rem;
+export const ContainerQuemSomos = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+ 
 
-  @media ((min-width: 280px) and (max-width: 720px)) {
+  @media ((min-width: 280px) and (max-width: 1000px)) {
     font-size: 0.9rem;
     line-height: 1.5rem;
   }
@@ -22,34 +20,23 @@ export const ContainerWhoWeAre = styled.section`
 
   h3 {
     padding: 1rem;
-    text-align: center;
+    font-family: 'Lobster Two', cursive;
   }
 `;
 
-export const HowItAllBegan = styled.div`
+export const CardQuemSomos = styled.div`
   background-color: azure;
   padding: 2rem;
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
   margin: 1rem;
 
-  @media ((min-width: 280px) and (max-width: 720px)) {
-    font-size: 0.9rem;
+  @media ((min-width: 280px) and (max-width: 1000px)) {
+    font-size: 0.8rem;
     line-height: 1.5rem;
-  }
-`;
-
-export const HowWeAct = styled.div`
-  background-color: azure;
-  padding: 2rem;
-  margin: 1rem;
-
-  @media ((min-width: 280px) and (max-width: 780px)) {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-  }
-`;
-
-export const ContainerDivs = styled.div`
-  @media ((min-width: 280px) and (max-width: 780px)) {
-    margin: auto;
+    
   }
 `;

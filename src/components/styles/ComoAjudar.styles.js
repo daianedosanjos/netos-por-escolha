@@ -1,22 +1,23 @@
 import styled from "styled-components";
 
-export const ComoAjudarContainer = styled.main`
+export const ContainerComoAjudar = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: auto;
+  width: 100%;
 
 
   h2 {
     color: #600227;
     text-align: center;
     width: 90vw;
-    margin-top: 10rem;
-
-    @media ((min-width: 280px) and (max-width: 780px)) {
-      font-size: 1.1rem;
+    font-family: 'Lobster Two', cursive;
+    font-weight: lighter;
+   
+    @media ((min-width: 280px) and (max-width: 1000px)) {
+      font-size: 1rem;
     }
   }
 
@@ -26,7 +27,7 @@ export const ComoAjudarContainer = styled.main`
   }
 `;
 
-export const Container = styled.section`
+export const ContainerCards = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,12 +51,19 @@ export const Card = styled.div`
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  width: 90vw;
 
   p {
     font-size: 1.5rem;
   }
 
-  @media ((min-width: 280px) and (max-width: 780px)) {
+  h3 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-family: 'Lobster Two', cursive;
+  }
+
+  @media ((min-width: 280px) and (max-width: 1000px)) {
     width: 92vw;
 
     p {
@@ -63,9 +71,7 @@ export const Card = styled.div`
     }
   }
 
-  h4 {
-    margin-bottom: 1rem;
-  }
+ 
 `;
 
 export const LinkButton = styled.button`
