@@ -1,8 +1,15 @@
+import { Link } from "react-router-dom";
 import { DoacaoContainer, Lista } from "../styles/Doacoes.styles";
+import { LinkButton } from "../styles/ComoAjudar.styles";
 
 function Doacoes() {
   return (
   <DoacaoContainer>
+     <LinkButton>
+        <Link to="/home">
+          Voltar
+        </Link>
+      </LinkButton>
   <div>
   <h2>
       Sua doação irá ajudar os idosos em situação de vulnerabilidade social
@@ -34,7 +41,7 @@ function Doacoes() {
     </ul>  
 </Lista>
 <h2>
-    Se a empresa deseja realizar uma campanha interna para arrecadar doações
+    Se a sua empresa deseja realizar uma campanha interna para arrecadar doações
     de produtos, entre em contato pelo e-mail:
     netosporescolhasalvador@gmail.com
   </h2>

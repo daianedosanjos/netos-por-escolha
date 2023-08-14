@@ -13,7 +13,7 @@ function ComoAjudar() {
   return (
     <ContainerComoAjudar>
   <h2>
-    Confira as diversas formas de ajudar a Netos por Escolha e manter este projeto em andamento.
+    Confira as diversas formas de ajudar o Netos por Escolha e manter este projeto em andamento.
   </h2>
   <div>
     <img src={doacao} alt="Imagem Ilustrativa" />
@@ -36,7 +36,7 @@ function ComoAjudar() {
         Colabore com doações de materiais. Clique abaixo para ver a lista completa.
       </p>
       <LinkButton>
-        <Link className="link" to="/doacoes">
+        <Link to="/doacoes">
           VER LISTA
         </Link>
       </LinkButton>
@@ -44,7 +44,7 @@ function ComoAjudar() {
     <Card>
       <h3>Apoio Financeiro</h3>
       <p>
-        Contribua financeiramente. Clique abaixo para apoiar nossas causas e iniciativas.
+        Contribua financeiramente. Clique abaixo e veja como.
       </p>
       <LinkButton>
         <a href="https://nubank.com.br/pagar/2a532/m8KbZtMBXn?fbclid=PAAaZK-bfCPfQ-Q0kO3LLVZxfsA8hkMesXEXXM5v-f2G1S9uBdV8tH9Owh-Ik_aem_AdFuW_d5Jrr1qa2n7e_3OMuCNDHpwzKJCNX_bzZ7h_hFl0fbEJHLlVq78fFgAu16KWY" target="_blank">

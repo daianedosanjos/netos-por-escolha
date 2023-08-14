@@ -77,7 +77,7 @@ export const Card = styled.div`
 export const LinkButton = styled.button`
   background-color: #600227;
   width: 10rem;
-  height: 2rem;
+  height: 2.5rem;
   border-radius: 5px;
   margin-top: 2rem;
   display: flex;

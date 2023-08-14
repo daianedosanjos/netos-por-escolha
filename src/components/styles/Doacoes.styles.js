@@ -5,20 +5,23 @@ export const DoacaoContainer = styled.main`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
   width: 100%;
+  margin-top: 2rem;
 
 
   h2{
     margin-bottom: 1rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: center;
     padding: .8rem;
+    font-family: 'Lobster Two', cursive;
+    font-weight: lighter;
+  }
 
     @media ((min-width: 280px) and (max-width: 1000px)) {
-      font-size: 1.1rem;
+      font-size: .8rem;
     }
-  }
+  
   
 
   h3 {
