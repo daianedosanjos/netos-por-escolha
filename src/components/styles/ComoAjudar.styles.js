@@ -94,7 +94,5 @@ export const LinkButton = styled.button`
     transform: scale(1.01);
   }
 
-  .link {
-    color: white;
-  }
+ 
 `;

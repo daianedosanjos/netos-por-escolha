@@ -2,10 +2,11 @@ import doacao from "../../img/doacao.png";
 import { Link } from "react-router-dom";
 
 import {
-  LinkButton,
+
   Card,
   ContainerComoAjudar,
   ContainerCards,
+  LinkButton,
 } from "../styles/ComoAjudar.styles";
 import Contato from "./Contato";
 

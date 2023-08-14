@@ -48,7 +48,7 @@ export const CardPrincipios = styled.div`
   }
 
   @media ((min-width: 220px) and (max-width: 780px)) {
-    width: 95%;
+    width: 90vw;
     font-size: 0.6rem;
     line-height: 1.5rem;
   }
